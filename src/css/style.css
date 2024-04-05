@@ -1,10 +1,10 @@
 html {
-    color: #fff;
+    color: #FFF;
 }
 
 body {
     background-color: #282828;
-    font-family: "poppins", sans-serif;
+    font-family: "Poppins", sans-serif;
     margin: 0 auto;
     max-width: 1120px;
 }
@@ -16,3 +16,39 @@ body {
     align-items: center;
     padding: 30px 15px;
 }
+
+.cabecalho .logo {
+    background-color: orange;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: 2px solid #FFF;
+    text-decoration: underline;
+    text-align: center;
+    line-height: 55px;
+    font-family: "Raleway", sans-serif;
+    transition: 0.2s;
+}
+
+.cabecalho a:hover .logo {
+    color: #9443D8;
+    border: 2px solid #9443D8;
+}
+
+.cabecalho .menu ul {
+    background-color: red;
+}
+
+.cabecalho .menu li a {
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    transition: 0.2s;
+}
+
+.cabecalho .menu li a:hover {
+    background-color: #9443D8;
+    color: #FFF;
+    border-radius: 50px;
+}
+
