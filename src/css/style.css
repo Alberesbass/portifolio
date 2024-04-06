@@ -120,3 +120,16 @@ body {
 .home .foto.sombra-interna {
     background: linear-gradient(to right, #8A35C8, #18C063, #00EEA2);
 }
+
+.projetos {
+    background-color: purple;
+    padding: 70px 0;
+}
+
+.projetos .titulo {
+    text-align: center;
+    padding: 60px 0;
+    font-size: 45px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
