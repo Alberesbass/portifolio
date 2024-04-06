@@ -52,3 +52,56 @@ body {
     border-radius: 50px;
 }
 
+.home {
+    background-color: green;
+    display: flex;
+    min-height: calc(100vh - 125px);
+    align-items: center;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.home .informacoes {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    letter-spacing: 2px;
+    padding: 0 15px;
+    max-width: 50%;
+}
+
+.home .informacoes h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.home .informacoes p {
+    font-family: "Raleway" sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.home .redes-sociais {
+    background-color: orange;
+    display: flex;
+    gap: 20px;
+}
+
+.home .redes-sociais a i {
+    border: 1px solid #FFF;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    font-size: 26px;
+    transition: 0.3s;
+}
+
+.home .redes-sociais a i:hover {
+    color: #9443D8;
+    border: 1px solid #9443D8;
+    transform: scale(1.1);
+}
