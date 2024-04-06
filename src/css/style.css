@@ -105,3 +105,18 @@ body {
     border: 1px solid #9443D8;
     transform: scale(1.1);
 }
+
+.home .container-foto .foto {
+    background-color: red;
+    max-width: 450px;
+    border-radius: 50%;
+}
+
+.home .container-foto img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.home .foto.sombra-interna {
+    background: linear-gradient(to right, #8A35C8, #18C063, #00EEA2);
+}
