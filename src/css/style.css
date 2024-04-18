@@ -176,8 +176,12 @@ body {
 }
 
 .projetos .container-projetos .projeto:hover .informacoes-projeto {
-  opacity: 0.7;
+  opacity: 0.9;
   background-color: #000;
+}
+
+p span {
+  color: #02d08f;
 }
 
 .projetos .btn-mostrar-projetos {
